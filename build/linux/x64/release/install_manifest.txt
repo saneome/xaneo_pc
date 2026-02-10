@@ -1,0 +1,14 @@
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/xaneo_pc_new
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/icudtl.dat
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/AssetManifest.bin
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/FontManifest.json
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/shaders/stretch_effect.frag
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/NOTICES.Z
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/packages/fluttertoast/assets/toastify.js
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/packages/fluttertoast/assets/toastify.css
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/NativeAssetsManifest.json
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/data/flutter_assets/version.json
+/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib/libapp.so
