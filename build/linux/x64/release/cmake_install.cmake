@@ -68,7 +68,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/xaneo_pc_new")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/xaneo_pc_new"
-         OLD_RPATH "/home/xaneodev/xaneo_pc/linux/flutter/ephemeral:"
+         OLD_RPATH "/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever:/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/window_manager:/home/xaneodev/xaneo_pc/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/llvm-strip" "$ENV{DESTDIR}/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/xaneo_pc_new")
@@ -98,6 +98,30 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib/libscreen_retriever_plugin.so")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever/libscreen_retriever_plugin.so")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib/libwindow_manager_plugin.so")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/xaneodev/xaneo_pc/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/window_manager/libwindow_manager_plugin.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -146,6 +170,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/xaneodev/xaneo_pc/build/linux/x64/release/flutter/cmake_install.cmake")
   include("/home/xaneodev/xaneo_pc/build/linux/x64/release/runner/cmake_install.cmake")
+  include("/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever/cmake_install.cmake")
+  include("/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/window_manager/cmake_install.cmake")
 
 endif()
 

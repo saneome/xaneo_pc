@@ -8,12 +8,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "animations",
-      "rootUri": "file:///home/xaneodev/.pub-cache/hosted/pub.dev/animations-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
       "name": "ansicolor",
       "rootUri": "file:///home/xaneodev/.pub-cache/hosted/pub.dev/ansicolor-2.0.3",
       "packageUri": "lib/",
@@ -464,6 +458,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "screen_retriever",
+      "rootUri": "file:///home/xaneodev/.pub-cache/hosted/pub.dev/screen_retriever-0.1.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "shared_preferences",
       "rootUri": "file:///home/xaneodev/.pub-cache/hosted/pub.dev/shared_preferences-2.5.4",
       "packageUri": "lib/",
@@ -618,6 +618,12 @@
       "rootUri": "file:///home/xaneodev/.pub-cache/hosted/pub.dev/win32-5.15.0",
       "packageUri": "lib/",
       "languageVersion": "3.8"
+    },
+    {
+      "name": "window_manager",
+      "rootUri": "file:///home/xaneodev/.pub-cache/hosted/pub.dev/window_manager-0.3.9",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "xdg_directories",
