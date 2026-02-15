@@ -4,6 +4,7 @@
 		"/home/xaneodev/xaneo_pc/build/linux/x64/release/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/linux/x64/release/flutter/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/linux/x64/release/runner/cmake_install.cmake",
+		"/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/window_manager/cmake_install.cmake"
 	],

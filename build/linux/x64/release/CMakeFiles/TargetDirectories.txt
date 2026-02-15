@@ -18,6 +18,13 @@
 /home/xaneodev/xaneo_pc/build/linux/x64/release/runner/CMakeFiles/install.dir
 /home/xaneodev/xaneo_pc/build/linux/x64/release/runner/CMakeFiles/install/local.dir
 /home/xaneodev/xaneo_pc/build/linux/x64/release/runner/CMakeFiles/install/strip.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/edit_cache.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/rebuild_cache.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/list_install_components.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/install.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/install/local.dir
+/home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/file_selector_linux/CMakeFiles/install/strip.dir
 /home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir
 /home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever/CMakeFiles/edit_cache.dir
 /home/xaneodev/xaneo_pc/build/linux/x64/release/plugins/screen_retriever/CMakeFiles/rebuild_cache.dir

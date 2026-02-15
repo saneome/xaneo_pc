@@ -210,14 +210,14 @@ build /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so /h
 #############################################
 # Order-only phony target for xaneo_pc_new
 
-build cmake_object_order_depends_target_xaneo_pc_new: phony || cmake_object_order_depends_target_screen_retriever_plugin cmake_object_order_depends_target_window_manager_plugin flutter/flutter_assemble
+build cmake_object_order_depends_target_xaneo_pc_new: phony || cmake_object_order_depends_target_file_selector_linux_plugin cmake_object_order_depends_target_screen_retriever_plugin cmake_object_order_depends_target_url_launcher_linux_plugin cmake_object_order_depends_target_window_manager_plugin flutter/flutter_assemble
 
 build runner/CMakeFiles/xaneo_pc_new.dir/main.cc.o: CXX_COMPILER__xaneo_pc_new_unscanned_Debug /home/xaneodev/xaneo_pc/linux/runner/main.cc || cmake_object_order_depends_target_xaneo_pc_new
   CONFIG = Debug
   DEFINES = -DAPPLICATION_ID=\"com.example.xaneo_pc_new\"
   DEP_FILE = runner/CMakeFiles/xaneo_pc_new.dir/main.cc.o.d
   FLAGS = -g -Wall -Werror -DWITH_GZFILEOP -pthread
-  INCLUDES = -I/home/xaneodev/xaneo_pc/linux -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
   OBJECT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
   OBJECT_FILE_DIR = runner/CMakeFiles/xaneo_pc_new.dir
   TARGET_SUPPORT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
@@ -227,7 +227,7 @@ build runner/CMakeFiles/xaneo_pc_new.dir/my_application.cc.o: CXX_COMPILER__xane
   DEFINES = -DAPPLICATION_ID=\"com.example.xaneo_pc_new\"
   DEP_FILE = runner/CMakeFiles/xaneo_pc_new.dir/my_application.cc.o.d
   FLAGS = -g -Wall -Werror -DWITH_GZFILEOP -pthread
-  INCLUDES = -I/home/xaneodev/xaneo_pc/linux -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
   OBJECT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
   OBJECT_FILE_DIR = runner/CMakeFiles/xaneo_pc_new.dir
   TARGET_SUPPORT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
@@ -237,7 +237,7 @@ build runner/CMakeFiles/xaneo_pc_new.dir/__/flutter/generated_plugin_registrant.
   DEFINES = -DAPPLICATION_ID=\"com.example.xaneo_pc_new\"
   DEP_FILE = runner/CMakeFiles/xaneo_pc_new.dir/__/flutter/generated_plugin_registrant.cc.o.d
   FLAGS = -g -Wall -Werror -DWITH_GZFILEOP -pthread
-  INCLUDES = -I/home/xaneodev/xaneo_pc/linux -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
   OBJECT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
   OBJECT_FILE_DIR = runner/CMakeFiles/xaneo_pc_new.dir/__/flutter
   TARGET_SUPPORT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
@@ -250,12 +250,12 @@ build runner/CMakeFiles/xaneo_pc_new.dir/__/flutter/generated_plugin_registrant.
 #############################################
 # Link the executable intermediates_do_not_run/xaneo_pc_new
 
-build intermediates_do_not_run/xaneo_pc_new: CXX_EXECUTABLE_LINKER__xaneo_pc_new_Debug runner/CMakeFiles/xaneo_pc_new.dir/main.cc.o runner/CMakeFiles/xaneo_pc_new.dir/my_application.cc.o runner/CMakeFiles/xaneo_pc_new.dir/__/flutter/generated_plugin_registrant.cc.o | plugins/screen_retriever/libscreen_retriever_plugin.so plugins/window_manager/libwindow_manager_plugin.so /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libcairo.so /usr/lib/libharfbuzz.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so || flutter/flutter_assemble plugins/screen_retriever/libscreen_retriever_plugin.so plugins/window_manager/libwindow_manager_plugin.so
+build intermediates_do_not_run/xaneo_pc_new: CXX_EXECUTABLE_LINKER__xaneo_pc_new_Debug runner/CMakeFiles/xaneo_pc_new.dir/main.cc.o runner/CMakeFiles/xaneo_pc_new.dir/my_application.cc.o runner/CMakeFiles/xaneo_pc_new.dir/__/flutter/generated_plugin_registrant.cc.o | plugins/file_selector_linux/libfile_selector_linux_plugin.so plugins/screen_retriever/libscreen_retriever_plugin.so plugins/url_launcher_linux/liburl_launcher_linux_plugin.so plugins/window_manager/libwindow_manager_plugin.so /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libcairo.so /usr/lib/libharfbuzz.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so || flutter/flutter_assemble plugins/file_selector_linux/libfile_selector_linux_plugin.so plugins/screen_retriever/libscreen_retriever_plugin.so plugins/url_launcher_linux/liburl_launcher_linux_plugin.so plugins/window_manager/libwindow_manager_plugin.so
   CONFIG = Debug
   DEP_FILE = runner/CMakeFiles/xaneo_pc_new.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Xlinker --dependency-file=runner/CMakeFiles/xaneo_pc_new.dir/link.d
-  LINK_LIBRARIES = -Wl,-rpath,/home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/screen_retriever:/home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/window_manager:/home/xaneodev/xaneo_pc/linux/flutter/ephemeral:  plugins/screen_retriever/libscreen_retriever_plugin.so  plugins/window_manager/libwindow_manager_plugin.so  /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libcairo.so  /usr/lib/libharfbuzz.so  /usr/lib/libgio-2.0.so  /usr/lib/libgobject-2.0.so  /usr/lib/libglib-2.0.so
+  LINK_LIBRARIES = -Wl,-rpath,/home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux:/home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/screen_retriever:/home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux:/home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/window_manager:/home/xaneodev/xaneo_pc/linux/flutter/ephemeral:  plugins/file_selector_linux/libfile_selector_linux_plugin.so  plugins/screen_retriever/libscreen_retriever_plugin.so  plugins/url_launcher_linux/liburl_launcher_linux_plugin.so  plugins/window_manager/libwindow_manager_plugin.so  /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libcairo.so  /usr/lib/libharfbuzz.so  /usr/lib/libgio-2.0.so  /usr/lib/libgobject-2.0.so  /usr/lib/libglib-2.0.so
   OBJECT_DIR = runner/CMakeFiles/xaneo_pc_new.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -328,6 +328,129 @@ build runner/CMakeFiles/install/strip.util: CUSTOM_COMMAND runner/all
   restat = 1
 
 build runner/install/strip: phony runner/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/xaneodev/xaneo_pc/linux/flutter/generated_plugins.cmake
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target file_selector_linux_plugin
+
+
+#############################################
+# Order-only phony target for file_selector_linux_plugin
+
+build cmake_object_order_depends_target_file_selector_linux_plugin: phony || flutter/flutter_assemble
+
+build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o: CXX_COMPILER__file_selector_linux_plugin_unscanned_Debug /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/file_selector_plugin.cc || cmake_object_order_depends_target_file_selector_linux_plugin
+  CONFIG = Debug
+  DEFINES = -DFLUTTER_PLUGIN_IMPL -Dfile_selector_linux_plugin_EXPORTS
+  DEP_FILE = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -DWITH_GZFILEOP -pthread
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+  TARGET_SUPPORT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+
+build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o: CXX_COMPILER__file_selector_linux_plugin_unscanned_Debug /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/messages.g.cc || cmake_object_order_depends_target_file_selector_linux_plugin
+  CONFIG = Debug
+  DEFINES = -DFLUTTER_PLUGIN_IMPL -Dfile_selector_linux_plugin_EXPORTS
+  DEP_FILE = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -DWITH_GZFILEOP -pthread
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+  TARGET_SUPPORT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target file_selector_linux_plugin
+
+
+#############################################
+# Link the shared library plugins/file_selector_linux/libfile_selector_linux_plugin.so
+
+build plugins/file_selector_linux/libfile_selector_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__file_selector_linux_plugin_Debug plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o | /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libcairo.so /usr/lib/libharfbuzz.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so || flutter/flutter_assemble
+  CONFIG = Debug
+  DEP_FILE = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/link.d
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_FLAGS = -shared -Xlinker --dependency-file=plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,/home/xaneodev/xaneo_pc/linux/flutter/ephemeral  /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libcairo.so  /usr/lib/libharfbuzz.so  /usr/lib/libgio-2.0.so  /usr/lib/libgobject-2.0.so  /usr/lib/libglib-2.0.so
+  OBJECT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libfile_selector_linux_plugin.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = plugins/file_selector_linux/libfile_selector_linux_plugin.so
+  TARGET_PDB = file_selector_linux_plugin.so.dbg
+  TARGET_SUPPORT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build plugins/file_selector_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux && /usr/bin/ccmake -S/home/xaneodev/xaneo_pc/linux -B/home/xaneodev/xaneo_pc/build/linux/x64/debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build plugins/file_selector_linux/edit_cache: phony plugins/file_selector_linux/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build plugins/file_selector_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux && /usr/bin/cmake --regenerate-during-build -S/home/xaneodev/xaneo_pc/linux -B/home/xaneodev/xaneo_pc/build/linux/x64/debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build plugins/file_selector_linux/rebuild_cache: phony plugins/file_selector_linux/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build plugins/file_selector_linux/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build plugins/file_selector_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/file_selector_linux/all
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux && /usr/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build plugins/file_selector_linux/install: phony plugins/file_selector_linux/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build plugins/file_selector_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/file_selector_linux/all
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build plugins/file_selector_linux/install/local: phony plugins/file_selector_linux/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build plugins/file_selector_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/file_selector_linux/all
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build plugins/file_selector_linux/install/strip: phony plugins/file_selector_linux/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -448,6 +571,129 @@ build plugins/screen_retriever/install/strip: phony plugins/screen_retriever/CMa
 # =============================================================================
 
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target url_launcher_linux_plugin
+
+
+#############################################
+# Order-only phony target for url_launcher_linux_plugin
+
+build cmake_object_order_depends_target_url_launcher_linux_plugin: phony || flutter/flutter_assemble
+
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o: CXX_COMPILER__url_launcher_linux_plugin_unscanned_Debug /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/messages.g.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  CONFIG = Debug
+  DEFINES = -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -DWITH_GZFILEOP -pthread
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  TARGET_SUPPORT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o: CXX_COMPILER__url_launcher_linux_plugin_unscanned_Debug /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/url_launcher_plugin.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  CONFIG = Debug
+  DEFINES = -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -DWITH_GZFILEOP -pthread
+  INCLUDES = -I/home/xaneodev/xaneo_pc/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  TARGET_SUPPORT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target url_launcher_linux_plugin
+
+
+#############################################
+# Link the shared library plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
+build plugins/url_launcher_linux/liburl_launcher_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__url_launcher_linux_plugin_Debug plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o | /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libcairo.so /usr/lib/libharfbuzz.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so || flutter/flutter_assemble
+  CONFIG = Debug
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/link.d
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_FLAGS = -shared -Xlinker --dependency-file=plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,/home/xaneodev/xaneo_pc/linux/flutter/ephemeral  /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libcairo.so  /usr/lib/libharfbuzz.so  /usr/lib/libgio-2.0.so  /usr/lib/libgobject-2.0.so  /usr/lib/libglib-2.0.so
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = liburl_launcher_linux_plugin.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+  TARGET_PDB = url_launcher_linux_plugin.so.dbg
+  TARGET_SUPPORT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build plugins/url_launcher_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/ccmake -S/home/xaneodev/xaneo_pc/linux -B/home/xaneodev/xaneo_pc/build/linux/x64/debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/edit_cache: phony plugins/url_launcher_linux/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake --regenerate-during-build -S/home/xaneodev/xaneo_pc/linux -B/home/xaneodev/xaneo_pc/build/linux/x64/debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/rebuild_cache: phony plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build plugins/url_launcher_linux/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build plugins/url_launcher_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install: phony plugins/url_launcher_linux/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build plugins/url_launcher_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install/local: phony plugins/url_launcher_linux/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build plugins/url_launcher_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install/strip: phony plugins/url_launcher_linux/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/xaneodev/xaneo_pc/linux/flutter/generated_plugins.cmake
+# =============================================================================
+
+# =============================================================================
 # Object build statements for SHARED_LIBRARY target window_manager_plugin
 
 
@@ -558,13 +804,21 @@ build plugins/window_manager/install/strip: phony plugins/window_manager/CMakeFi
 # =============================================================================
 # Target aliases.
 
+build file_selector_linux_plugin: phony plugins/file_selector_linux/libfile_selector_linux_plugin.so
+
 build flutter_assemble: phony flutter/flutter_assemble
 
+build libfile_selector_linux_plugin.so: phony plugins/file_selector_linux/libfile_selector_linux_plugin.so
+
 build libscreen_retriever_plugin.so: phony plugins/screen_retriever/libscreen_retriever_plugin.so
+
+build liburl_launcher_linux_plugin.so: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
 build libwindow_manager_plugin.so: phony plugins/window_manager/libwindow_manager_plugin.so
 
 build screen_retriever_plugin: phony plugins/screen_retriever/libscreen_retriever_plugin.so
+
+build url_launcher_linux_plugin: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
 build window_manager_plugin: phony plugins/window_manager/libwindow_manager_plugin.so
 
@@ -578,7 +832,7 @@ build xaneo_pc_new: phony intermediates_do_not_run/xaneo_pc_new
 #############################################
 # Folder: /home/xaneodev/xaneo_pc/build/linux/x64/debug
 
-build all: phony flutter/all runner/all plugins/screen_retriever/all plugins/window_manager/all
+build all: phony flutter/all runner/all plugins/file_selector_linux/all plugins/screen_retriever/all plugins/url_launcher_linux/all plugins/window_manager/all
 
 # =============================================================================
 
@@ -590,9 +844,23 @@ build flutter/all: phony
 # =============================================================================
 
 #############################################
+# Folder: /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux
+
+build plugins/file_selector_linux/all: phony plugins/file_selector_linux/libfile_selector_linux_plugin.so
+
+# =============================================================================
+
+#############################################
 # Folder: /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/screen_retriever
 
 build plugins/screen_retriever/all: phony plugins/screen_retriever/libscreen_retriever_plugin.so
+
+# =============================================================================
+
+#############################################
+# Folder: /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux
+
+build plugins/url_launcher_linux/all: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
 # =============================================================================
 
@@ -615,14 +883,14 @@ build runner/all: phony intermediates_do_not_run/xaneo_pc_new
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/xaneodev/xaneo_pc/build/linux/x64/debug/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/flutter/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/runner/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/screen_retriever/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/window_manager/cmake_install.cmake: RERUN_CMAKE | /home/xaneodev/xaneo_pc/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/generated_config.cmake /home/xaneodev/xaneo_pc/linux/flutter/generated_plugins.cmake /home/xaneodev/xaneo_pc/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake
+build build.ninja /home/xaneodev/xaneo_pc/build/linux/x64/debug/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/flutter/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/runner/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/file_selector_linux/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/screen_retriever/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/url_launcher_linux/cmake_install.cmake /home/xaneodev/xaneo_pc/build/linux/x64/debug/plugins/window_manager/cmake_install.cmake: RERUN_CMAKE | /home/xaneodev/xaneo_pc/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/generated_config.cmake /home/xaneodev/xaneo_pc/linux/flutter/generated_plugins.cmake /home/xaneodev/xaneo_pc/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/xaneodev/xaneo_pc/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/generated_config.cmake /home/xaneodev/xaneo_pc/linux/flutter/generated_plugins.cmake /home/xaneodev/xaneo_pc/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake: phony
+build /home/xaneodev/xaneo_pc/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/xaneodev/xaneo_pc/linux/flutter/ephemeral/generated_config.cmake /home/xaneodev/xaneo_pc/linux/flutter/generated_plugins.cmake /home/xaneodev/xaneo_pc/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake: phony
 
 
 #############################################
