@@ -6,6 +6,7 @@
 		"/home/xaneodev/xaneo_pc/build/runner/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/plugins/file_selector_linux/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/plugins/screen_retriever/cmake_install.cmake",
+		"/home/xaneodev/xaneo_pc/build/plugins/url_launcher_linux/cmake_install.cmake",
 		"/home/xaneodev/xaneo_pc/build/plugins/window_manager/cmake_install.cmake"
 	],
 	"Parallel" : false
